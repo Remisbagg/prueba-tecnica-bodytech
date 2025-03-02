@@ -17,11 +17,11 @@ Route::middleware('auth:api')->group(function () {
     Route::get('/api-docs.json', function () {
         return response()->file(storage_path('api-docs/api-docs.json'));
     });
-    Route::get('/test', function () {
-        return response()->json(['message' => 'API working']);
-    });
 });
 
+Route::get('/test', function () {
+    return response()->json(['message' => 'API working']);
+});
 Route::middleware('auth:api')->post('/refresh', [AuthController::class, 'refresh']);
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
