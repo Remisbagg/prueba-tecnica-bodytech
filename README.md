@@ -147,8 +147,8 @@ Se documentaron todos los endpoints usando Swagger, lo que facilita la integraci
 Contacto
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
-Nombre: [Tu Nombre]
+Nombre: Sergio Alejandro Amaya Rozo
 
-Email: [tu-email@example.com]
+Email: amayasergio1001@gmail.com
 
-GitHub: https://github.com/tu-usuario
+GitHub: https://github.com/Remisbagg
